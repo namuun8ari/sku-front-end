@@ -1,0 +1,18 @@
+/* In your CSS or stylesheet */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-item {
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-item.active {
+    background-color: #e2e8f0;
+    /* Add any additional styles for the active page */
+  }
+  
